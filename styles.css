@@ -13,6 +13,7 @@
  justify-content: space-evenly;
  align-content: center;
  padding: 50px;
+ flex-wrap: wrap;
 }
 
 .skills-container{
@@ -68,4 +69,10 @@ a{
     font-size: 14px;
     color: 	#0A0A86;
     padding: 1px;
+}
+
+@media(max-width:900px){
+    .page-wrapper, .side1, .side2{
+        width: 90%;
+    }
 }
